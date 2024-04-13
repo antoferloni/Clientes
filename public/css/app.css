@@ -1,0 +1,4 @@
+.table thead th {
+    background: rgb(15, 4, 96); /* Cambia el color de fondo de las filas del encabezado */
+    color: white; /* Cambia el color del texto en las filas del encabezado */
+}

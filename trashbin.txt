@@ -1,0 +1,28 @@
+@include('cliente.form');
+ 
+ value="{{ $clientes->activo }}"
+ 
+ value="{{ $clientes->direccion }}"
+ 
+value="{{ $clientes->telefono }}"
+ 
+value="{{ $clientes->ruc }}"
+ 
+cliente
+ 
+id="Guardar Datos"
+ 
+cliente
+ 
+<td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+ 
+ th*5
+ 
+$datos['cliente']
+ 
+erController'
+ 
