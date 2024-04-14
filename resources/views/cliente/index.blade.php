@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,6 @@
     <script src="https://kit.fontawesome.com/fe59c386a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{{ asset('js/script.js') }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
@@ -98,6 +97,7 @@
             <td>
                  <a href=""  data-bs-toggle="modal" data-bs-target="#modalEditar{{$cliente->id}}" class="btn btn-warning btn-sm" >
                     <i class="fa-solid fa-pen-to-square"></i></a>
+
                  @if($cliente->activo==1)
                  <button class="btn btn-danger btn-sm" onclick="showAlert()"> 
                     <i class="fa-solid fa-trash"></i>
@@ -159,7 +159,6 @@
     </div>
 
     <script src="{{ asset('js/script.js') }}"></script>
-  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
